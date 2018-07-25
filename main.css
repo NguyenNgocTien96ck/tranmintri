@@ -1,0 +1,90 @@
+body{
+    background: white;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 1000px;
+    margin: 3px auto;
+}
+body #menu_top{
+    background: black;
+    height: 40px;
+}
+#menu_top ul{
+    margin: 0px;
+    padding: 0px;
+}
+#menu_top ul li{
+    color: white;
+    list-style: none;
+    float: left;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#menu_top ul li a{
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #FFF;
+    padding: 0px 20px 0px 20px;
+    float: left;
+    text-align: center;
+    margin-top: auto;
+}
+#menu_top ul li a .active{
+    background: #1949b5;
+
+}
+#banner{
+    background: blue;
+    height: auto;
+    width: 1000px;
+}
+#banner img{
+    width: 1000px;
+}
+#menu {
+    margin-top: 10px;
+}
+#menu #left{
+    width: 800px;
+    height: 520px;
+    float: left;
+    background: olive;
+}
+#menu #left ul{
+    margin: 0px;
+    padding: 0px;
+}
+#menu #left ul li{
+    list-style: none;   
+    clear: left;
+    border-bottom: 2px solid #ccc;
+    float: left;
+    margin-bottom: 20px;
+}
+#menu #left ul li img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+menu #left ul li img h2{
+    font-size: 16px;
+    color: black;
+margin-bottom: 3px;
+}
+#menu #right{
+    background: orange;
+    width: 200px;
+    min-height: 520px;
+    float: left;
+}
+#footer{
+    background: red;
+    height: 60px;
+    width: 1000px;
+    text-align: center;
+    clear: left;
+    line-height: 60px;
+}
